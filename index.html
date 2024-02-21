@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ModerateContent Image Test</title>
+  </head>
+  <body>
+    <input type="file" id="imageInput" accept="image/*" />
+    <button onclick="testImage()">Test Image</button>
+
+    <img id="selectedImage" style="max-width: 100%; max-height: 300px; display: none;" />
+
+    <p id="adult"></p>
+    <p id="teen"></p>
+    <p id="everyone"></p>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
